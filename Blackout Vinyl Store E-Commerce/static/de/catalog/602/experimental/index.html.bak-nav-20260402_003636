@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Experimental | Blackout Vinyl Store</title>
+  <meta name="description" content="Découvrez notre sélection Experimental sur Blackout Vinyl Store, disquaire vinyle underground." />
+  <meta name="robots" content="index,follow" />
+
+  <link rel="stylesheet" href="../../../../../../css/main.css" />
+    <link rel="stylesheet" href="/static/css/header.css" />
+    <link rel="stylesheet" href="/static/css/footer.css" />
+</head>
+<body>
+  <!-- BVS:HEADER START -->
+<header class="site-header">
+    <div class="container topbar">
+
+        <!-- LOGO -->
+        <a class="logo" href="/fr/" aria-label="Retour à l'accueil Blackout Vinyl Store">
+            <img src="/static/public/images/logo/blackoutvinylestore-logo-200px.png" alt="Blackout Vinyl Store">
+        </a>
+
+        <!-- TITRE -->
+        <div class="site-branding">
+            <p class="site-kicker">Disquaire & distributeur underground</p>
+            <p class="site-tagline">Vinyles, mp3, nouveautés, restocks & collectors</p>
+        </div>
+
+        <!-- OUTILS -->
+        <div class="header-tools">
+
+            <div class="language-selector">
+                <label for="language-select" class="sr-only">Choisir la langue</label>
+                <select id="language-select" name="language">
+                    <option value="fr" selected>🇫🇷 Français</option>
+                    <option value="en">🇬🇧 English</option>
+                    <option value="de">🇩🇪 Deutsch</option>
+                </select>
+            </div>
+
+            <div class="header-actions">
+                <a class="btn btn-dark" href="/fr/connexion/">
+                    <svg aria-hidden="true" width="16" height="16" viewBox="0 0 512 512" fill="currentColor">
+                        <path
+                            d="M502.6 233.4l-96-96c-15-15-41-4.5-41 17v62.6H192c-17.7 0-32 14.3-32 32v14c0 17.7 14.3 32 32 32h173.6v62.6c0 21.4 25.9 32.1 41 17l96-96c9.4-9.4 9.4-24.6 0-33.9zM192 80h96c17.7 0 32-14.3 32-32V32c0-17.7-14.3-32-32-32H160C71.6 0 0 71.6 0 160v192c0 88.4 71.6 160 160 160h128c17.7 0 32-14.3 32-32v-16c0-17.7-14.3-32-32-32h-96c-53 0-96-43-96-96V176c0-53 43-96 96-96z" />
+                    </svg>
+                    Connexion
+                </a>
+
+                <a class="btn btn-dark" href="/fr/inscription/">
+                    <svg aria-hidden="true" width="16" height="16" viewBox="0 0 640 512" fill="currentColor">
+                        <path
+                            d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm336 32h-64v-64c0-17.7-14.3-32-32-32s-32 14.3-32 32v64h-64c-17.7 0-32 14.3-32 32s14.3 32 32 32h64v64c0 17.7 14.3 32 32 32s32-14.3 32-32v-64h64c17.7 0 32-14.3 32-32s-14.3-32-32-32zM144 320C64.5 320 0 384.5 0 464c0 26.5 21.5 48 48 48h277.3c-3.4-9.9-5.3-20.5-5.3-32c0-52.9 43.1-96 96-96c11.5 0 22.1 1.9 32 5.3V416c0-53-43-96-96-96H144z" />
+                    </svg>
+                    Créer un compte
+                </a>
+
+                <a class="btn btn-cart" href="/fr/panier/">
+                    <svg aria-hidden="true" width="16" height="16" viewBox="0 0 576 512" fill="currentColor">
+                        <path
+                            d="M528.1 301.3L575.8 107c3.2-13-6.7-25-20.1-25H120.6l-9.4-44.2C108.3 24.2 96.4 16 83.8 16H24C10.7 16 0 26.7 0 40s10.7 24 24 24h40.5l61.7 289.8c-10.3 9.3-16.9 22.7-16.9 37.8c0 28.2 22.8 51 51 51h320c13.3 0 24-10.7 24-24s-10.7-24-24-24H160.3l-5.4-25.4h312.4c28.3 0 52.9-19.1 60.8-46.7z" />
+                    </svg>
+                    Mon panier
+                </a>
+            </div>
+
+            <form class="search-form" action="/fr/recherche/" method="get" role="search">
+                <label for="site-search" class="sr-only">Rechercher sur le site</label>
+                <input id="site-search" type="search" name="q"
+                    placeholder="Rechercher un artiste, un style, un label…" />
+                <button type="submit" class="btn btn-outline">🔍</button>
+            </form>
+
+            <div class="social-icons" aria-label="Réseaux sociaux">
+                <a class="facebook" href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"
+                    aria-label="Facebook">
+                    <svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor">
+                        <path
+                            d="M22 12.07C22 6.5 17.52 2 12 2S2 6.5 2 12.07C2 17.1 5.66 21.25 10.44 22v-7.03H7.9v-2.9h2.54V9.85c0-2.52 1.49-3.91 3.78-3.91c1.1 0 2.25.2 2.25.2v2.48h-1.27c-1.25 0-1.64.78-1.64 1.57v1.88h2.79l-.45 2.9h-2.34V22C18.34 21.25 22 17.1 22 12.07z" />
+                    </svg>
+                </a>
+
+                <a class="instagram" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"
+                    aria-label="Instagram">
+                    <svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor">
+                        <path
+                            d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2zm0 1.5A4.25 4.25 0 0 0 3.5 7.75v8.5A4.25 4.25 0 0 0 7.75 20.5h8.5a4.25 4.25 0 0 0 4.25-4.25v-8.5A4.25 4.25 0 0 0 16.25 3.5h-8.5zM12 7a5 5 0 1 1 0 10a5 5 0 0 1 0-10zm0 1.5A3.5 3.5 0 1 0 12 15.5A3.5 3.5 0 0 0 12 8.5zm5.25-2.38a1.13 1.13 0 1 1 0 2.26a1.13 1.13 0 0 1 0-2.26z" />
+                    </svg>
+                </a>
+
+                <a class="youtube" href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer"
+                    aria-label="YouTube">
+                    <svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor">
+                        <path
+                            d="M21.58 7.19a2.99 2.99 0 0 0-2.1-2.12C17.61 4.5 12 4.5 12 4.5s-5.61 0-7.48.57A2.99 2.99 0 0 0 2.42 7.2A31.2 31.2 0 0 0 2 12a31.2 31.2 0 0 0 .42 4.81a2.99 2.99 0 0 0 2.1 2.12c1.87.57 7.48.57 7.48.57s5.61 0 7.48-.57a2.99 2.99 0 0 0 2.1-2.12A31.2 31.2 0 0 0 22 12a31.2 31.2 0 0 0-.42-4.81zM10 15.46V8.54L16 12l-6 3.46z" />
+                    </svg>
+                </a>
+
+                <a class="linkedin" href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer"
+                    aria-label="LinkedIn">
+                    <svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor">
+                        <path
+                            d="M6.94 8.5H3.56V20h3.38V8.5zM5.25 3A2.03 2.03 0 1 0 5.3 7.06A2.03 2.03 0 0 0 5.25 3zM20.44 13.01c0-3.47-1.85-5.08-4.32-5.08c-1.99 0-2.88 1.09-3.38 1.86V8.5H9.37c.04.86 0 11.5 0 11.5h3.37v-6.42c0-.34.02-.68.13-.92c.27-.67.88-1.36 1.9-1.36c1.34 0 1.87 1.02 1.87 2.52V20H20v-6.99z" />
+                    </svg>
+                </a>
+            </div>
+
+        </div>
+
+        <!-- BURGER -->
+        <button class="burger" id="burger" type="button" aria-label="Ouvrir le menu" aria-expanded="false"
+            aria-controls="main-nav">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+    </div>
+
+    <!-- NAVIGATION -->
+    <nav class="main-nav" id="main-nav" aria-label="Navigation principale">
+    <div class="container">
+        <ul class="nav-list">
+
+            <li class="nav-item has-dropdown">
+                <a href="/fr/">Accueil</a>
+                <button class="submenu-toggle" type="button" aria-label="Ouvrir le sous-menu Accueil">+</button>
+                <ul class="submenu">
+                    <li><a href="/fr/a-propos/">À propos</a></li>
+                    <li><a href="/fr/politique/">Politique</a></li>
+                    <li><a href="/fr/contact/">Contact</a></li>
+                </ul>
+            </li>
+
+            <li class="nav-item has-dropdown">
+                <a href="/fr/catalog/">Galettorie</a>
+                <button class="submenu-toggle" type="button" aria-label="Ouvrir le sous-menu Galettorie">+</button>
+                <ul class="submenu">
+
+                    <li class="submenu-item has-dropdown">
+                        <a href="/fr/catalog/hardcore/">Hardcore</a>
+                        <button class="submenu-toggle" type="button" aria-label="Ouvrir le sous-menu Hardcore">+</button>
+                        <ul class="submenu submenu-right">
+                            <li><a href="/fr/catalog/101/gabber/">Gabber</a></li>
+                            <li><a href="/fr/catalog/102/hardcore/">Hardcore</a></li>
+                            <li><a href="/fr/catalog/103/happy-hardcore/">Happy Hardcore</a></li>
+                            <li><a href="/fr/catalog/104/jumpstyle/">Jumpstyle</a></li>
+                            <li><a href="/fr/catalog/105/hardstyle/">Hardstyle</a></li>
+                            <li><a href="/fr/catalog/106/hard-house/">Hard House</a></li>
+                            <li><a href="/fr/catalog/107/hardtechno/">Hardtechno</a></li>
+                            <li><a href="/fr/catalog/108/terror/">Terror</a></li>
+                            <li><a href="/fr/catalog/109/speedcore/">Speedcore</a></li>
+                            <li><a href="/fr/catalog/110/breakcore/">Breakcore</a></li>
+                            <li><a href="/fr/catalog/111/doom/">Doom</a></li>
+                            <li><a href="/fr/catalog/112/doomcore/">Doomcore</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="submenu-item has-dropdown">
+                        <a href="/fr/catalog/tekno-tribe/">Tekno / Tribe</a>
+                        <button class="submenu-toggle" type="button" aria-label="Ouvrir le sous-menu Tekno Tribe">+</button>
+                        <ul class="submenu submenu-right">
+                            <li><a href="/fr/catalog/201/tekno/">Tekno</a></li>
+                            <li><a href="/fr/catalog/202/hardtek/">Hardtek</a></li>
+                            <li><a href="/fr/catalog/203/tribe/">Tribe</a></li>
+                            <li><a href="/fr/catalog/204/tribe-freetekno/">Tribe Freetekno</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="submenu-item has-dropdown">
+                        <a href="/fr/catalog/techno/">Techno</a>
+                        <button class="submenu-toggle" type="button" aria-label="Ouvrir le sous-menu Techno">+</button>
+                        <ul class="submenu submenu-right">
+                            <li><a href="/fr/catalog/301/techno/">Techno</a></li>
+                            <li><a href="/fr/catalog/302/acid/">Acid</a></li>
+                            <li><a href="/fr/catalog/303/acid-techno/">Acid Techno</a></li>
+                            <li><a href="/fr/catalog/304/dub-techno/">Dub Techno</a></li>
+                            <li><a href="/fr/catalog/305/deep-techno/">Deep Techno</a></li>
+                            <li><a href="/fr/catalog/306/schranz/">Schranz</a></li>
+                            <li><a href="/fr/catalog/307/minimal-techno/">Minimal Techno</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="submenu-item has-dropdown">
+                        <a href="/fr/catalog/trance/">Trance</a>
+                        <button class="submenu-toggle" type="button" aria-label="Ouvrir le sous-menu Trance">+</button>
+                        <ul class="submenu submenu-right">
+                            <li><a href="/fr/catalog/401/trance/">Trance</a></li>
+                            <li><a href="/fr/catalog/402/uplifting-trance/">Uplifting Trance</a></li>
+                            <li><a href="/fr/catalog/403/progressive-trance/">Progressive Trance</a></li>
+                            <li><a href="/fr/catalog/404/psytrance/">Psytrance</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="submenu-item has-dropdown">
+                        <a href="/fr/catalog/house/">House</a>
+                        <button class="submenu-toggle" type="button" aria-label="Ouvrir le sous-menu House">+</button>
+                        <ul class="submenu submenu-right">
+                            <li><a href="/fr/catalog/405/deep-house/">Deep House</a></li>
+                            <li><a href="/fr/catalog/406/tech-house/">Tech House</a></li>
+                            <li><a href="/fr/catalog/407/acid-house/">Acid House</a></li>
+                            <li><a href="/fr/catalog/408/progressive-house/">Progressive House</a></li>
+                            <li><a href="/fr/catalog/409/euro-house/">Euro House</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="submenu-item has-dropdown">
+                        <a href="/fr/catalog/drum-jungle-dub/">Drum / Jungle / Dub</a>
+                        <button class="submenu-toggle" type="button" aria-label="Ouvrir le sous-menu Drum Jungle Dub">+</button>
+                        <ul class="submenu submenu-right">
+                            <li><a href="/fr/catalog/501/drum-and-bass/">Drum &amp; Bass</a></li>
+                            <li><a href="/fr/catalog/502/jungle/">Jungle</a></li>
+                            <li><a href="/fr/catalog/503/ragga-jungle/">Ragga Jungle</a></li>
+                            <li><a href="/fr/catalog/504/dub/">Dub</a></li>
+                            <li><a href="/fr/catalog/505/dub-ragga/">Dub Ragga</a></li>
+                            <li><a href="/fr/catalog/506/bass-music/">Bass Music</a></li>
+                            <li><a href="/fr/catalog/507/grime/">Grime</a></li>
+                            <li><a href="/fr/catalog/508/dubstep-grime-ukg/">Dubstep / Grime / UKG</a></li>
+                            <li><a href="/fr/catalog/509/breakbeat/">Breakbeat</a></li>
+                            <li><a href="/fr/catalog/510/trap/">Trap</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="/fr/collections/">Collections</a></li>
+                    <li><a href="/fr/shop/">Shop &amp; extras</a></li>
+                </ul>
+            </li>
+
+            <li class="nav-item has-dropdown">
+                <a href="/fr/vetements/">Vêtements</a>
+                <button class="submenu-toggle" type="button" aria-label="Ouvrir le sous-menu Vêtements">+</button>
+                <ul class="submenu">
+                    <li><a href="/fr/vetements/901/t-shirts/">T-shirts</a></li>
+                    <li><a href="/fr/vetements/902/sweats-hoodies/">Sweats &amp; Hoodies</a></li>
+                    <li><a href="/fr/vetements/903/vestes/">Vestes</a></li>
+                    <li><a href="/fr/vetements/904/pantalons/">Pantalons</a></li>
+                    <li><a href="/fr/vetements/905/headwear/">Headwear</a></li>
+                    <li><a href="/fr/vetements/906/accessoires/">Accessoires</a></li>
+                    <li><a href="/fr/vetements/907/goodies/">Goodies</a></li>
+                </ul>
+            </li>
+
+            <li class="nav-item has-dropdown">
+                <a href="/fr/mon-compte/">Ma page</a>
+                <button class="submenu-toggle" type="button" aria-label="Ouvrir le sous-menu Ma page">+</button>
+                <ul class="submenu">
+                    <li><a href="/fr/mon-compte/mes-achats/">Mes achats</a></li>
+                    <li><a href="/fr/mon-compte/mes-desirs/">Mes désirs</a></li>
+                    <li><a href="/fr/mon-compte/mes-ecoutes/">Mes écoutes</a></li>
+                </ul>
+            </li>
+
+        </ul>
+    </div>
+</nav>
+
+</header>
+<!-- BVS:HEADER END -->
+
+
+  <main class="main-content">
+    <div class="layout-container">
+      <aside class="sidebar" aria-label="Menu catalogue">
+        <h2>Menu</h2>
+
+        <section class="sidebar-group">
+          <h3>Catalogue</h3>
+          <ul>
+            <li><a href="../../../../../../fr/catalog/nouveautes/">Nouveautés du mois</a></li>
+            <li><a href="../../../../../../fr/catalog/cette-semaine/">Cette semaine</a></li>
+            <li><a href="../../../../../../fr/catalog/semaine-derniere/">La semaine dernière</a></li>
+            <li><a href="../../../../../../fr/catalog/depuis-un-mois/">Depuis un mois</a></li>
+            <li><a href="../../../../../../fr/catalog/restock/">Restock</a></li>
+          </ul>
+        </section>
+
+        <section class="sidebar-group">
+          <h3>Style</h3>
+          <ul>
+            <li><a href="../../../../../../fr/catalog/1/breakcore/">Breakcore</a></li>
+            <li><a href="../../../../../../fr/catalog/7/tribe-freetekno/">Tribe / Freetekno</a></li>
+            <li><a href="../../../../../../fr/catalog/10/ragga-jungle/">Ragga Jungle</a></li>
+            <li><a href="../../../../../../fr/catalog/11/rap-trip-hop/">Rap / Trip Hop</a></li>
+            <li><a href="../../../../../../fr/catalog/12/rock-wave-punk/">Rock / Wave / Punk</a></li>
+            <li><a href="../../../../../../fr/catalog/13/industrial/">Industrial</a></li>
+          </ul>
+        </section>
+
+        <section class="sidebar-group">
+          <h3>Disponibilité</h3>
+          <ul>
+            <li><a href="#">En stock</a></li>
+            <li><a href="#">Précommande</a></li>
+            <li><a href="#">Re-order</a></li>
+            <li><a href="#">Rupture de stock</a></li>
+          </ul>
+        </section>
+      </aside>
+
+      <section class="catalog-page">
+        <section class="catalog-hero">
+          <h2>Experimental</h2>
+          <p>Découvrez notre sélection Experimental sur Blackout Vinyl Store, disquaire vinyle underground.</p>
+        </section>
+
+        <section class="filters-bar">
+          <div class="catalog-filters-left">
+            <strong>Filtrer :</strong>
+            <span class="tag">Nouveautés</span>
+            <span class="tag">Réassort</span>
+            <span class="tag">Collectors</span>
+          </div>
+
+          <div class="catalog-filters-right">
+            <label for="sort-select" class="muted">Trier par :</label>
+            <select id="sort-select" name="sort">
+              <option value="new">Plus récent</option>
+              <option value="price-asc">Prix croissant</option>
+              <option value="price-desc">Prix décroissant</option>
+              <option value="title">Titre A-Z</option>
+            </select>
+          </div>
+        </section>
+
+        <section class="record-grid">
+          <article class="record-card">
+            <div class="record-card-content">
+              <span class="badge">Nouveauté</span>
+              <h3>ACID PIRATE 01</h3>
+              <p class="record-meta">Narfos · Skry · Vortek’s</p>
+              <p class="record-price">14,90 €</p>
+
+              <ol class="tracklist">
+                <li>Skry – Looped Circuit</li>
+                <li>Skry – Vent Hurlant</li>
+                <li>Vortek’s – Free Spirit</li>
+                <li>Narfos – This Is Tekno</li>
+              </ol>
+
+              <div class="audio-wrapper">
+                <audio controls preload="none">
+                  <source src="../../../../../../public/mp3/b/1/e/42765/01.mp3" type="audio/mpeg" />
+                  Votre navigateur ne prend pas en charge la lecture audio.
+                </audio>
+                <p class="current-track">Extrait MP3 disponible</p>
+              </div>
+
+              <div class="flex flex-wrap">
+                <a href="#" class="btn">Voir la fiche</a>
+                <a href="#" class="btn btn-outline">Ajouter au panier</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="record-card">
+            <div class="record-card-content">
+              <span class="badge">Réassort</span>
+              <h3>Experimental Selection 02</h3>
+              <p class="record-meta">Artiste · Label underground</p>
+              <p class="record-price">12,50 €</p>
+
+              <ol class="tracklist">
+                <li>Face A – Track One</li>
+                <li>Face A – Track Two</li>
+                <li>Face B – Track One</li>
+                <li>Face B – Track Two</li>
+              </ol>
+
+              <div class="audio-wrapper">
+                <audio controls preload="none">
+                  <source src="../../../../../../public/mp3/0/9/9/45554/01.mp3" type="audio/mpeg" />
+                  Votre navigateur ne prend pas en charge la lecture audio.
+                </audio>
+                <p class="current-track">Écoute en cours de préparation</p>
+              </div>
+
+              <div class="flex flex-wrap">
+                <a href="#" class="btn">Voir la fiche</a>
+                <a href="#" class="btn btn-outline">Ajouter au panier</a>
+              </div>
+            </div>
+          </article>
+        </section>
+
+        <section class="additional-blocks">
+          <article class="block">
+            <h3>Services</h3>
+            <p>Sélection underground, arrivages réguliers, pressages rares, nouveautés et réassorts.</p>
+          </article>
+
+          <article class="block">
+            <h3>Meilleures ventes</h3>
+            <p>Retrouve ici les références les plus demandées de la catégorie <strong>Experimental</strong>.</p>
+          </article>
+
+          <article class="block">
+            <h3>Recommandations</h3>
+            <p>Une base idéale pour proposer ensuite des recommandations personnalisées par style, artistes ou labels.</p>
+          </article>
+        </section>
+
+        <section class="pagination">
+          <span class="active">1</span>
+          <a href="#">2</a>
+          <a href="#">3</a>
+          <a href="#">Suivant</a>
+        </section>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-glow"></div>
+
+    <div class="footer-inner">
+
+        <!-- MARQUE / LOGO -->
+        <div class="footer-brand">
+            <a href="/fr/" class="footer-logo" aria-label="Retour à l'accueil Blackout Vinyl Store">
+                <img src="/static/public/images/logo/blackoutvinylestore-logo-200px.png" alt="Blackout Vinyl Store" />
+            </a>
+
+            <p class="footer-tagline">
+                Disquaire vinyle indépendant underground, techno, tribe, jungle, drum &amp; bass,
+                breakbeat et cultures alternatives.
+            </p>
+
+            <div class="social-icons" aria-label="Réseaux sociaux">
+                <a class="facebook" href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"
+                    aria-label="Facebook">
+                    <svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor">
+                        <path
+                            d="M22 12.07C22 6.5 17.52 2 12 2S2 6.5 2 12.07C2 17.1 5.66 21.25 10.44 22v-7.03H7.9v-2.9h2.54V9.85c0-2.52 1.49-3.91 3.78-3.91c1.1 0 2.25.2 2.25.2v2.48h-1.27c-1.25 0-1.64.78-1.64 1.57v1.88h2.79l-.45 2.9h-2.34V22C18.34 21.25 22 17.1 22 12.07z" />
+                    </svg>
+                </a>
+
+                <a class="instagram" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"
+                    aria-label="Instagram">
+                    <svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor">
+                        <path
+                            d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2zm0 1.5A4.25 4.25 0 0 0 3.5 7.75v8.5A4.25 4.25 0 0 0 7.75 20.5h8.5a4.25 4.25 0 0 0 4.25-4.25v-8.5A4.25 4.25 0 0 0 16.25 3.5h-8.5zM12 7a5 5 0 1 1 0 10a5 5 0 0 1 0-10zm0 1.5A3.5 3.5 0 1 0 12 15.5A3.5 3.5 0 0 0 12 8.5zm5.25-2.38a1.13 1.13 0 1 1 0 2.26a1.13 1.13 0 0 1 0-2.26z" />
+                    </svg>
+                </a>
+
+                <a class="youtube" href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer"
+                    aria-label="YouTube">
+                    <svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor">
+                        <path
+                            d="M21.58 7.19a2.99 2.99 0 0 0-2.1-2.12C17.61 4.5 12 4.5 12 4.5s-5.61 0-7.48.57A2.99 2.99 0 0 0 2.42 7.2A31.2 31.2 0 0 0 2 12a31.2 31.2 0 0 0 .42 4.81a2.99 2.99 0 0 0 2.1 2.12c1.87.57 7.48.57 7.48.57s5.61 0 7.48-.57a2.99 2.99 0 0 0 2.1-2.12A31.2 31.2 0 0 0 22 12a31.2 31.2 0 0 0-.42-4.81zM10 15.46V8.54L16 12l-6 3.46z" />
+                    </svg>
+                </a>
+
+                <a class="linkedin" href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer"
+                    aria-label="LinkedIn">
+                    <svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor">
+                        <path
+                            d="M6.94 8.5H3.56V20h3.38V8.5zM5.25 3A2.03 2.03 0 1 0 5.3 7.06A2.03 2.03 0 0 0 5.25 3zM20.44 13.01c0-3.47-1.85-5.08-4.32-5.08c-1.99 0-2.88 1.09-3.38 1.86V8.5H9.37c.04.86 0 11.5 0 11.5h3.37v-6.42c0-.34.02-.68.13-.92c.27-.67.88-1.36 1.9-1.36c1.34 0 1.87 1.02 1.87 2.52V20H20v-6.99z" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+
+        <!-- NAVIGATION -->
+        <div class="footer-column">
+            <h3>Navigation</h3>
+            <ul class="footer-links">
+                <li><a href="/fr/">Accueil</a></li>
+                <li><a href="/fr/catalog/">Catalogue</a></li>
+                <li><a href="/fr/vetements/">Vêtements</a></li>
+                <li><a href="/fr/mon-compte/">Mon compte</a></li>
+            </ul>
+        </div>
+
+        <!-- INFORMATIONS -->
+        <div class="footer-column">
+            <h3>Informations</h3>
+            <ul class="footer-links">
+                <li><a rel="nofollow" href="/fr/infos/cgv/">Conditions générales de vente</a></li>
+                <li><a rel="nofollow" href="/fr/infos/payment/">Conditions de paiement</a></li>
+                <li><a rel="nofollow" href="/fr/infos/privacy/">Vos informations personnelles</a></li>
+                <li><a rel="nofollow" href="/fr/infos/loyalty/">Programme de fidélité</a></li>
+                <li><a rel="nofollow" href="/fr/contact/">Nous contacter</a></li>
+            </ul>
+        </div>
+
+        <!-- UNIVERS -->
+        <div class="footer-column">
+            <h3>Blackout</h3>
+            <ul class="footer-links">
+                <li><a href="/fr/nouveautes/">Nouveautés</a></li>
+                <li><a href="/fr/restocks/">Restocks</a></li>
+                <li><a href="/fr/collectors/">Collectors</a></li>
+                <li><a href="/fr/artists/">Artists</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 Blackout Vinyl Store Records SARL — Tous droits réservés.</p>
+        </div>
+    </div>
+</footer>
+    <script src="/static/js/menu.js"></script>
+</body>
+</html>

@@ -1,0 +1,118 @@
+.site-header {
+  display: grid;
+  grid-template-columns: repeat(11, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "container topbar container topbar container topbar container topbar container topbar container topbar container topbar container topbar container topbar container topbar container topbar"
+    ". . . . . . . . . . ."
+    ". . . . . . . . . . ."
+    ". . . . . . . . . . ."
+    ". . . . . . . . . . ."
+    ". . . . . . . . . . ."
+    ". . . . . . . . . . ."
+    ". . . . . . . . . . ."
+    ". . . . . . . . . . ."
+    ". . . . . . . . . . ."
+    ". . . . . . . . . . ."
+    ". . . . . . . . . . .";
+}
+
+.container topbar {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 0.4fr 1.6fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "logo site-kicker header-tools"
+    "logo site-kicker header-tools"
+    "logo site-tagline header-tools";
+  grid-area: container topbar;
+}
+
+.logo {
+  grid-area: logo;
+}
+
+.site-tagline {
+  grid-area: site-tagline;
+}
+
+.site-kicker {
+  grid-area: site-kicker;
+}
+
+.header-tools {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". . ."
+    ". . language-selector"
+    ". . .";
+  grid-area: header-tools;
+}
+
+.language-selector {
+  grid-area: language-selector;
+}
+
+@media all and (-ms-high-contrast: none) {
+  .site-header {
+    display: -ms-grid;
+    -ms-grid-columns: repeat(11, 1fr);
+    -ms-grid-rows: repeat(12, 1fr);
+  }
+
+  .container topbar {
+    display: -ms-grid;
+    -ms-grid-columns: repeat(3, 1fr);
+    -ms-grid-rows: 1fr 0.4fr 1.6fr;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 11;
+  }
+
+  .logo {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+
+  .site-tagline {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+  }
+
+  .site-kicker {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+  }
+
+  .header-tools {
+    display: -ms-grid;
+    -ms-grid-columns: repeat(3, 1fr);
+    -ms-grid-rows: repeat(3, 1fr);
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+  }
+
+  .language-selector {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+  }
+}

@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Bass Music | Blackout Vinyl Store</title>
+  <meta name="description" content="Découvrez notre sélection Bass Music sur Blackout Vinyl Store, disquaire vinyle underground." />
+  <meta name="robots" content="index,follow" />
+
+  <link rel="stylesheet" href="../../../../../../css/main.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-branding">
+      <div class="site-branding-left">
+        <a href="../../../../../../fr/">
+          <img
+            src="../../../../../../fr/image/blackoutvinylstore_logo_200px.png"
+            alt="Blackout Vinyl Store"
+            class="site-logo"
+          />
+        </a>
+      </div>
+
+      <div class="site-title-group">
+        <p class="site-kicker">Disquaire indépendant</p>
+        <h1 class="site-brand-name">Blackout Vinyl Store</h1>
+        <p class="site-tagline">Underground electro</p>
+      </div>
+
+      <div class="header-actions">
+        <a class="btn btn-outline" href="../../../../../../fr/connexion/">Connexion</a>
+        <a class="btn" href="../../../../../../fr/inscription/">Créer un compte</a>
+
+        <a class="btn-panier" href="../../../../../../fr/panier/" aria-label="Mon panier">
+          <span>Mon panier</span>
+          <span class="compteur-panier">0 article</span>
+        </a>
+      </div>
+    </div>
+
+    <nav class="breadcrumb" aria-label="Fil d’Ariane">
+      <a href="../../../../../../fr/">Accueil</a>
+      <span>›</span>
+      <a href="../../../../../../fr/catalog/">Catalogue</a>
+      <span>›</span>
+      <span>Bass Music</span>
+    </nav>
+
+    <nav class="top-nav" aria-label="Navigation principale">
+      <ul class="nav-list">
+        <li>
+          <details>
+            <summary>Accueil</summary>
+            <ul class="submenu">
+              <li><a href="../../../../../../fr/">Accueil</a></li>
+              <li><a href="../../../../../../fr/a-propos/">À propos</a></li>
+              <li><a href="../../../../../../fr/politique/">Politique</a></li>
+              <li><a href="../../../../../../fr/contact/">Contact</a></li>
+            </ul>
+          </details>
+        </li>
+
+        <li>
+          <details>
+            <summary>Gallettorie</summary>
+            <ul class="submenu">
+              <li><a href="../../../../../../fr/catalog/1/breakcore/">Breakcore</a></li>
+              <li><a href="../../../../../../fr/catalog/7/tribe-freetekno/">Tribe / Freetekno</a></li>
+              <li><a href="../../../../../../fr/catalog/10/ragga-jungle/">Ragga Jungle</a></li>
+              <li><a href="../../../../../../fr/catalog/11/rap-trip-hop/">Rap / Trip Hop</a></li>
+              <li><a href="../../../../../../fr/catalog/12/rock-wave-punk/">Rock / Wave / Punk</a></li>
+              <li><a href="../../../../../../fr/catalog/13/industrial/">Industrial</a></li>
+            </ul>
+          </details>
+        </li>
+
+        <li>
+          <details>
+            <summary>Vêtements</summary>
+            <ul class="submenu">
+              <li><a href="../../../../../../fr/catalog/15/merchandising/">Merchandising</a></li>
+              <li><a href="../../../../../../fr/catalog/14/books/">Books</a></li>
+            </ul>
+          </details>
+        </li>
+
+        <li>
+          <details>
+            <summary>Ma page</summary>
+            <ul class="submenu">
+              <li><a href="../../../../../../fr/mes-achats/">Mes achats</a></li>
+              <li><a href="../../../../../../fr/mes-desirs/">Mes désirs</a></li>
+              <li><a href="../../../../../../fr/mes-ecoutes/">Mes écoutes</a></li>
+            </ul>
+          </details>
+        </li>
+      </ul>
+
+      <form class="search-form" action="#" method="get">
+        <input
+          type="search"
+          id="search-bar"
+          name="q"
+          placeholder="Recherche..."
+          aria-label="Recherche"
+        />
+        <button type="submit">���</button>
+      </form>
+    </nav>
+  </header>
+
+  <main class="main-content">
+    <div class="layout-container">
+      <aside class="sidebar" aria-label="Menu catalogue">
+        <h2>Menu</h2>
+
+        <section class="sidebar-group">
+          <h3>Catalogue</h3>
+          <ul>
+            <li><a href="../../../../../../fr/catalog/nouveautes/">Nouveautés du mois</a></li>
+            <li><a href="../../../../../../fr/catalog/cette-semaine/">Cette semaine</a></li>
+            <li><a href="../../../../../../fr/catalog/semaine-derniere/">La semaine dernière</a></li>
+            <li><a href="../../../../../../fr/catalog/depuis-un-mois/">Depuis un mois</a></li>
+            <li><a href="../../../../../../fr/catalog/restock/">Restock</a></li>
+          </ul>
+        </section>
+
+        <section class="sidebar-group">
+          <h3>Style</h3>
+          <ul>
+            <li><a href="../../../../../../fr/catalog/1/breakcore/">Breakcore</a></li>
+            <li><a href="../../../../../../fr/catalog/7/tribe-freetekno/">Tribe / Freetekno</a></li>
+            <li><a href="../../../../../../fr/catalog/10/ragga-jungle/">Ragga Jungle</a></li>
+            <li><a href="../../../../../../fr/catalog/11/rap-trip-hop/">Rap / Trip Hop</a></li>
+            <li><a href="../../../../../../fr/catalog/12/rock-wave-punk/">Rock / Wave / Punk</a></li>
+            <li><a href="../../../../../../fr/catalog/13/industrial/">Industrial</a></li>
+          </ul>
+        </section>
+
+        <section class="sidebar-group">
+          <h3>Disponibilité</h3>
+          <ul>
+            <li><a href="#">En stock</a></li>
+            <li><a href="#">Précommande</a></li>
+            <li><a href="#">Re-order</a></li>
+            <li><a href="#">Rupture de stock</a></li>
+          </ul>
+        </section>
+      </aside>
+
+      <section class="catalog-page">
+        <section class="catalog-hero">
+          <h2>Bass Music</h2>
+          <p>Découvrez notre sélection Bass Music sur Blackout Vinyl Store, disquaire vinyle underground.</p>
+        </section>
+
+        <section class="filters-bar">
+          <div class="catalog-filters-left">
+            <strong>Filtrer :</strong>
+            <span class="tag">Nouveautés</span>
+            <span class="tag">Réassort</span>
+            <span class="tag">Collectors</span>
+          </div>
+
+          <div class="catalog-filters-right">
+            <label for="sort-select" class="muted">Trier par :</label>
+            <select id="sort-select" name="sort">
+              <option value="new">Plus récent</option>
+              <option value="price-asc">Prix croissant</option>
+              <option value="price-desc">Prix décroissant</option>
+              <option value="title">Titre A-Z</option>
+            </select>
+          </div>
+        </section>
+
+        <section class="record-grid">
+          <article class="record-card">
+            <div class="record-card-content">
+              <span class="badge">Nouveauté</span>
+              <h3>ACID PIRATE 01</h3>
+              <p class="record-meta">Narfos · Skry · Vortek’s</p>
+              <p class="record-price">14,90 €</p>
+
+              <ol class="tracklist">
+                <li>Skry – Looped Circuit</li>
+                <li>Skry – Vent Hurlant</li>
+                <li>Vortek’s – Free Spirit</li>
+                <li>Narfos – This Is Tekno</li>
+              </ol>
+
+              <div class="audio-wrapper">
+                <audio controls preload="none">
+                  <source src="../../../../../../public/mp3/b/1/e/42765/01.mp3" type="audio/mpeg" />
+                  Votre navigateur ne prend pas en charge la lecture audio.
+                </audio>
+                <p class="current-track">Extrait MP3 disponible</p>
+              </div>
+
+              <div class="flex flex-wrap">
+                <a href="#" class="btn">Voir la fiche</a>
+                <a href="#" class="btn btn-outline">Ajouter au panier</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="record-card">
+            <div class="record-card-content">
+              <span class="badge">Réassort</span>
+              <h3>Bass Music Selection 02</h3>
+              <p class="record-meta">Artiste · Label underground</p>
+              <p class="record-price">12,50 €</p>
+
+              <ol class="tracklist">
+                <li>Face A – Track One</li>
+                <li>Face A – Track Two</li>
+                <li>Face B – Track One</li>
+                <li>Face B – Track Two</li>
+              </ol>
+
+              <div class="audio-wrapper">
+                <audio controls preload="none">
+                  <source src="../../../../../../public/mp3/0/9/9/45554/01.mp3" type="audio/mpeg" />
+                  Votre navigateur ne prend pas en charge la lecture audio.
+                </audio>
+                <p class="current-track">Écoute en cours de préparation</p>
+              </div>
+
+              <div class="flex flex-wrap">
+                <a href="#" class="btn">Voir la fiche</a>
+                <a href="#" class="btn btn-outline">Ajouter au panier</a>
+              </div>
+            </div>
+          </article>
+        </section>
+
+        <section class="additional-blocks">
+          <article class="block">
+            <h3>Services</h3>
+            <p>Sélection underground, arrivages réguliers, pressages rares, nouveautés et réassorts.</p>
+          </article>
+
+          <article class="block">
+            <h3>Meilleures ventes</h3>
+            <p>Retrouve ici les références les plus demandées de la catégorie <strong>Bass Music</strong>.</p>
+          </article>
+
+          <article class="block">
+            <h3>Recommandations</h3>
+            <p>Une base idéale pour proposer ensuite des recommandations personnalisées par style, artistes ou labels.</p>
+          </article>
+        </section>
+
+        <section class="pagination">
+          <span class="active">1</span>
+          <a href="#">2</a>
+          <a href="#">3</a>
+          <a href="#">Suivant</a>
+        </section>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>
+        <h3>Blackout Vinyl Store</h3>
+        <p>Disquaire indépendant orienté underground electro.</p>
+      </div>
+
+      <div>
+        <h3>Navigation</h3>
+        <p><a href="../../../../../../fr/">Accueil</a></p>
+        <p><a href="../../../../../../fr/catalog/">Catalogue</a></p>
+        <p><a href="../../../../../../fr/contact/">Contact</a></p>
+      </div>
+
+      <div>
+        <h3>Suivez-nous</h3>
+        <p><a href="#">Facebook</a></p>
+        <p><a href="#">Instagram</a></p>
+        <p><a href="#">YouTube</a></p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

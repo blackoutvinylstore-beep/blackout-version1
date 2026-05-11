@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Blackout Vinyl Store | Disquaire vinyle underground, techno, tribe, jungle & drum and bass</title>
+    <meta name="description"
+        content="Blackout Vinyl Store, disquaire spécialisé en vinyles underground : techno, tribe, hardtek, jungle, drum & bass, dubstep, breakbeat et electro. Nouveautés, restocks et collectors." />
+    <meta name="robots" content="index,follow" />
+
+    <!-- Choisis UNE seule version de domaine -->
+    <link rel="canonical" href="https://blackoutvinylstore.com/fr/" />
+
+    <!-- À garder seulement si tes 2 versions existent vraiment -->
+    <link rel="alternate" hreflang="fr" href="https://blackoutvinylstore.com/fr/" />
+    <link rel="alternate" hreflang="en" href="https://blackoutvinylstore.com/en/" />
+    <link rel="alternate" hreflang="x-default" href="https://blackoutvinylstore.com/fr/" />
+
+    <meta name="theme-color" content="#111111" />
+
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <!--css-->
+    <link rel="stylesheet" href="/static/css/header.css" />
+    <link rel="stylesheet" href="/static/css/main.css" />
+    <link rel="stylesheet" href="/static/css/carousel/skin.css" />
+</head>
+
+<body>
+    <!--HEADER-->
+    <header class="site-header">
+        <!-- TOPBAR -->
+        <div class="container topbar">
+            <!-- LOGO -->
+            <a class="logo" href="/templates/home-template.html" aria-label="Retour à l'accueil Blackout Vinyl Store">
+                <img src="/static/public/images/logo/blackoutvinylestore-logo-320px.png" alt="Blackout Vinyl Store">
+            </a>
+
+            <!-- TITRE -->
+
+            <div class="site-branding">
+
+                <p class="site-kicker">Disquaire & distributeur underground</p>
+                <p class="site-tagline">Vinyles, mp3, nouveautés, restocks & collectors</p>
+            </div>
+
+            <!-- OUTILS -->
+            <div class="header-tools">
+
+                <div class="language-selector">
+                    <label for="language-select" class="sr-only">Choisir la langue</label>
+                    <select id="language-select" name="language">
+                        <option value="fr" selected>🇫🇷 Français</option>
+                        <option value="en">🇬🇧 English</option>
+                        <option value="de">🇩🇪 Deutsch</option>
+                    </select>
+                </div>
+                <!-- ACTION -->
+                <div class="header-actions">
+                    <a class="btn btn-dark" href="/fr/connexion/">
+                        <svg aria-hidden="true" width="16" height="16" viewBox="0 0 512 512" fill="currentColor">
+                            <path
+                                d="M502.6 233.4l-96-96c-15-15-41-4.5-41 17v62.6H192c-17.7 0-32 14.3-32 32v14c0 17.7 14.3 32 32 32h173.6v62.6c0 21.4 25.9 32.1 41 17l96-96c9.4-9.4 9.4-24.6 0-33.9zM192 80h96c17.7 0 32-14.3 32-32V32c0-17.7-14.3-32-32-32H160C71.6 0 0 71.6 0 160v192c0 88.4 71.6 160 160 160h128c17.7 0 32-14.3 32-32v-16c0-17.7-14.3-32-32-32h-96c-53 0-96-43-96-96V176c0-53 43-96 96-96z" />
+                        </svg>
+                        Connexion
+                    </a>
+
+                    <a class="btn btn-dark" href="/fr/inscription/">
+                        <svg aria-hidden="true" width="16" height="16" viewBox="0 0 640 512" fill="currentColor">
+                            <path
+                                d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm336 32h-64v-64c0-17.7-14.3-32-32-32s-32 14.3-32 32v64h-64c-17.7 0-32 14.3-32 32s14.3 32 32 32h64v64c0 17.7 14.3 32 32 32s32-14.3 32-32v-64h64c17.7 0 32-14.3 32-32s-14.3-32-32-32zM144 320C64.5 320 0 384.5 0 464c0 26.5 21.5 48 48 48h277.3c-3.4-9.9-5.3-20.5-5.3-32c0-52.9 43.1-96 96-96c11.5 0 22.1 1.9 32 5.3V416c0-53-43-96-96-96H144z" />
+                        </svg>
+                        Créer un compte
+                    </a>
+
+                    <a class="btn btn-cart" href="/fr/panier/">
+                        <svg aria-hidden="true" width="16" height="16" viewBox="0 0 576 512" fill="currentColor">
+                            <path
+                                d="M528.1 301.3L575.8 107c3.2-13-6.7-25-20.1-25H120.6l-9.4-44.2C108.3 24.2 96.4 16 83.8 16H24C10.7 16 0 26.7 0 40s10.7 24 24 24h40.5l61.7 289.8c-10.3 9.3-16.9 22.7-16.9 37.8c0 28.2 22.8 51 51 51h320c13.3 0 24-10.7 24-24s-10.7-24-24-24H160.3l-5.4-25.4h312.4c28.3 0 52.9-19.1 60.8-46.7z" />
+                        </svg>
+                        Mon panier
+                    </a>
+                </div>
+
+                <form class="search-form" action="/fr/recherche/" method="get" role="search">
+                    <label for="site-search" class="sr-only">Rechercher sur le site</label>
+                    <input id="site-search" type="search" name="q"
+                        placeholder="Rechercher un artiste, un style, un label…" />
+                    <button type="submit" class="btn btn-outline">🔍</button>
+                </form>
+
+                <div class="social-icons" aria-label="Réseaux sociaux">
+                    <a class="facebook" href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"
+                        aria-label="Facebook">
+                        <svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor">
+                            <path
+                                d="M22 12.07C22 6.5 17.52 2 12 2S2 6.5 2 12.07C2 17.1 5.66 21.25 10.44 22v-7.03H7.9v-2.9h2.54V9.85c0-2.52 1.49-3.91 3.78-3.91c1.1 0 2.25.2 2.25.2v2.48h-1.27c-1.25 0-1.64.78-1.64 1.57v1.88h2.79l-.45 2.9h-2.34V22C18.34 21.25 22 17.1 22 12.07z" />
+                        </svg>
+                    </a>
+
+                    <a class="instagram" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"
+                        aria-label="Instagram">
+                        <svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor">
+                            <path
+                                d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2zm0 1.5A4.25 4.25 0 0 0 3.5 7.75v8.5A4.25 4.25 0 0 0 7.75 20.5h8.5a4.25 4.25 0 0 0 4.25-4.25v-8.5A4.25 4.25 0 0 0 16.25 3.5h-8.5zM12 7a5 5 0 1 1 0 10a5 5 0 0 1 0-10zm0 1.5A3.5 3.5 0 1 0 12 15.5A3.5 3.5 0 0 0 12 8.5zm5.25-2.38a1.13 1.13 0 1 1 0 2.26a1.13 1.13 0 0 1 0-2.26z" />
+                        </svg>
+                    </a>
+
+                    <a class="youtube" href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer"
+                        aria-label="YouTube">
+                        <svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor">
+                            <path
+                                d="M21.58 7.19a2.99 2.99 0 0 0-2.1-2.12C17.61 4.5 12 4.5 12 4.5s-5.61 0-7.48.57A2.99 2.99 0 0 0 2.42 7.2A31.2 31.2 0 0 0 2 12a31.2 31.2 0 0 0 .42 4.81a2.99 2.99 0 0 0 2.1 2.12c1.87.57 7.48.57 7.48.57s5.61 0 7.48-.57a2.99 2.99 0 0 0 2.1-2.12A31.2 31.2 0 0 0 22 12a31.2 31.2 0 0 0-.42-4.81zM10 15.46V8.54L16 12l-6 3.46z" />
+                        </svg>
+                    </a>
+
+                    <a class="linkedin" href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer"
+                        aria-label="LinkedIn">
+                        <svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor">
+                            <path
+                                d="M6.94 8.5H3.56V20h3.38V8.5zM5.25 3A2.03 2.03 0 1 0 5.3 7.06A2.03 2.03 0 0 0 5.25 3zM20.44 13.01c0-3.47-1.85-5.08-4.32-5.08c-1.99 0-2.88 1.09-3.38 1.86V8.5H9.37c.04.86 0 11.5 0 11.5h3.37v-6.42c0-.34.02-.68.13-.92c.27-.67.88-1.36 1.9-1.36c1.34 0 1.87 1.02 1.87 2.52V20H20v-6.99z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+
+        <!-- BURGER -->
+
+        <button class="burger" id="burger" type="button" aria-label="Ouvrir le menu" aria-expanded="false"
+            aria-controls="main-nav">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <!-- NAVIGATION -->
+         
+        <ul class="container-nav" id="main-nav">
+
+            <li class="menu-item">
+                <a href="#">ACCUEIL</a>
+                <ul class="submenu">
+                    <li><a href="../page/qui_nous_sommes.html">Qui nous sommes</a></li>
+                    <li><a class="politique/fr/en/de" href="/static/fr/politique/index.html" aria-label="aller a la page politique">Notre politique magasin</a></li>
+                    <li><a href="../page/page_contact.html">Nous contacter</a></li>
+                </ul>
+            </li>
+
+            <li class="menu-item">
+                <a href="/fr/catalog/">Galettorie</a>
+                <ul class="submenu">
+
+                    <li>
+                        <a href="/fr/catalog/hardcore/">Hardcore</a>
+                        <ul class="submenu submenu-right">
+                            <li><a href="/fr/catalog/gabber/">Gabber</a></li>
+                            <li><a href="/fr/catalog/hardcore/">Hardcore</a></li>
+                            <li><a href="/fr/catalog/happy-hardcore/">Happy Hardcore</a></li>
+                            <li><a href="/fr/catalog/jumpstyle/">Jumpstyle</a></li>
+                            <li><a href="/fr/catalog/hardstyle/">Hardstyle</a></li>
+                            <li><a href="/fr/catalog/hard-house/">Hard House</a></li>
+                            <li><a href="/fr/catalog/hardtechno/">Hardtechno</a></li>
+                            <li><a href="/fr/catalog/terror/">Terror</a></li>
+                            <li><a href="/fr/catalog/speedcore/">Speedcore</a></li>
+                            <li><a href="/fr/catalog/breakcore/">Breakcore</a></li>
+                            <li><a href="/fr/catalog/doom/">Doom</a></li>
+                            <li><a href="/fr/catalog/doomcore/">Doomcore</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="/fr/catalog/techno/">Techno</a>
+                        <ul class="submenu submenu-right">
+                            <li><a href="/fr/catalog/minimal/">Minimal</a></li>
+                            <li><a href="/fr/catalog/hard-techno/">Hard Techno</a></li>
+                            <li><a href="/fr/catalog/acid/">Acid</a></li>
+                            <li><a href="/fr/catalog/techno/">Techno</a></li>
+                            <li><a href="/fr/catalog/hardtechno/">Hardtechno</a></li>
+                            <li><a href="/fr/catalog/acid-techno/">Acid Techno</a></li>
+                            <li><a href="/fr/catalog/dub-techno/">Dub Techno</a></li>
+                            <li><a href="/fr/catalog/deep-techno/">Deep Techno</a></li>
+                            <li><a href="/fr/catalog/schranz/">Schranz</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="/fr/catalog/trance/">Trance</a>
+                        <ul class="submenu submenu-right">
+                            <li><a href="/fr/catalog/psytrance/">Psytrance</a></li>
+                            <li><a href="/fr/catalog/progressive-trance/">Progressive</a></li>
+                            <li><a href="/fr/catalog/trance/">Trance</a></li>
+                            <li><a href="/fr/catalog/uplifting-trance/">Uplifting Trance</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="/fr/catalog/house/">House</a>
+                        <ul class="submenu submenu-right">
+                            <li><a href="/fr/catalog/deep-house/">Deep House</a></li>
+                            <li><a href="/fr/catalog/tech-house/">Tech House</a></li>
+                            <li><a href="/fr/catalog/acid-house/">Acid House</a></li>
+                            <li><a href="/fr/catalog/progressive-house/">Progressive House</a></li>
+                            <li><a href="/fr/catalog/euro-house/">Euro House</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="/fr/catalog/drum-jungle-dub/">Drum / Jungle / Dub</a>
+                        <ul class="submenu submenu-right">
+                            <li><a href="/fr/catalog/drum-and-bass/">Drum & Bass</a></li>
+                            <li><a href="/fr/catalog/bass-music/">Bass Music</a></li>
+                            <li><a href="/fr/catalog/grime/">Grime</a></li>
+                            <li><a href="/fr/catalog/jungle/">Jungle</a></li>
+                            <li><a href="/fr/catalog/breakbeat/">Breakbeat</a></li>
+                            <li><a href="/fr/catalog/breaks/">Breaks</a></li>
+                            <li><a href="/fr/catalog/dub/">Dub</a></li>
+                            <li><a href="/fr/catalog/trap/">Trap</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </li>
+
+            <li class="menu-item">
+                <a href="/fr/vetements/">Vêtements</a>
+                <ul class="submenu">
+                    <li>
+                        <a href="/fr/vetements/hommes/">Hommes</a>
+                        <ul class="submenu submenu-right">
+                            <li><a href="/fr/vetements/hommes/t-shirts/">T-shirts</a></li>
+                            <li><a href="/fr/vetements/hommes/pantalons/">Pantalons</a></li>
+                            <li><a href="/fr/vetements/hommes/vestes/">Vestes</a></li>
+                            <li><a href="/fr/vetements/hommes/chaussures/">Chaussures</a></li>
+                            <li><a href="/fr/vetements/hommes/chapeaux/">Chapeaux</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="/fr/vetements/femmes/">Femmes</a>
+                        <ul class="submenu submenu-right">
+                            <li><a href="/fr/vetements/femmes/t-shirts/">T-shirts</a></li>
+                            <li><a href="/fr/vetements/femmes/pantalons/">Pantalons</a></li>
+                            <li><a href="/fr/vetements/femmes/vestes/">Vestes</a></li>
+                            <li><a href="/fr/vetements/femmes/chaussures/">Chaussures</a></li>
+                            <li><a href="/fr/vetements/femmes/chapeaux/">Chapeaux</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="/fr/vetements-autre/">Autre</a>
+                        <ul class="submenu submenu-right">
+                            <li><a href="/fr/vetements/goodies/">Goodies</a></li>
+                            <li><a href="/fr/vetements/autre/">Autre</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="menu-item">
+                <a href="/fr/mon-compte/">Ma page</a>
+                <ul class="submenu">
+                    <li><a href="/fr/mon-compte/mes-achats/">Mes achats</a></li>
+                    <li><a href="/fr/mon-compte/mes-desirs/">Mes désirs</a></li>
+                    <li><a href="/fr/mon-compte/mes-ecoutes/">Mes écoutes</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <section class="new-arrivals-hero">
+        <h2>Nouveaux arrivages</h2>
+        <p>Les dernières galettes fraîchement débarquées</p>
+    </section>
+
+    <section class="container-skin" />
+        <div id="carousel-skin">
+            <figure>
+                <a href="/fr/produit/disque-1/">
+                    <img src="/static/public/images/products/disque-1.jpg" alt="Disque 1">
+                    <figcaption>Artiste 1 – Titre 1</figcaption>
+                </a>
+            </figure>
+        </div>
+
+
+        <figure>
+            <a href="/fr/produit/disque-2/">
+                <img src="/static/public/images/products/disque-2.jpg" alt="Disque 2">
+                <figcaption>Artiste 2 – Titre 2</figcaption>
+            </a>
+        </figure>
+
+        <figure>
+            <a href="/fr/produit/disque-3/">
+                <img src="/static/public/images/products/disque-3.jpg" alt="Disque 3">
+                <figcaption>Artiste 3 – Titre 3</figcaption>
+            </a>
+        </figure>
+
+        <figure>
+            <a href="/fr/produit/disque-4/">
+                <img src="/static/public/images/products/disque-4.jpg" alt="Disque 4">
+                <figcaption>Artiste 4 – Titre 4</figcaption>
+            </a>
+        </figure>
+
+        <figure>
+            <a href="/fr/produit/disque-5/">
+                <img src="/static/public/images/products/disque-5.jpg" alt="Disque 5">
+                <figcaption>Artiste 5 – Titre 5</figcaption>
+            </a>
+        </figure>
+        <div id="carousel-skin">
+            <figure>
+                <a href="/fr/produit/disque-6/">
+                    <img src="/static/public/images/products/disque-6.jpg" alt="Disque 6">
+                    <figcaption>Artiste 6 – Titre 6</figcaption>
+                </a>
+            </figure>
+
+            <figure>
+                <a href="/fr/produit/disque-7/">
+                    <img src="/static/public/images/products/disque-7.jpg" alt="Disque 7">
+                    <figcaption>Artiste 7 – Titre 7</figcaption>
+                </a>
+            </figure>
+
+            <figure>
+                <a href="/fr/produit/disque-8/">
+                    <img src="/static/public/images/products/disque-8.jpg" alt="Disque 8">
+                    <figcaption>Artiste 8 – Titre 8</figcaption>
+                </a>
+            </figure>
+
+            <figure>
+                <a href="/fr/produit/disque-9/">
+                    <img src="/static/public/images/products/disque-9.jpg" alt="Disque 9">
+                    <figcaption>Artiste 9 – Titre 9</figcaption>
+                </a>
+            </figure>
+
+            <figure>
+                <a href="/fr/produit/disque-10/">
+                    <img src="/static/public/images/products/disque-10.jpg" alt="Disque 10">
+                    <figcaption>Artiste 10 – Titre 10</figcaption>
+                </a>
+            </figure>
+        </div>
+    </section>
+
+    <section class="new-arrivals">
+        <div class="section-heading">
+            <h2>best vinyles</h2>
+            <p>Les inmanquables du shop</p>
+        </div>
+
+        <div class="carousel-shell">
+            <div class="wrap" id="news-carousel">
+                <article class="record-card">
+                    <a href="/fr/produit/disque-1/">
+                        <img src="/static/public/images/products/disque-1.jpg" alt="Disque 1">
+                        <div class="record-info">
+                            <p class="record-artist">Artiste 1</p>
+                            <h3 class="record-title">Titre du disque 1</h3>
+                            <p class="record-price">14,90 €</p>
+                        </div>
+                    </a>
+                </article>
+
+                <article class="record-card">
+                    <a href="/fr/produit/disque-2/">
+                        <img src="/static/public/images/products/disque-2.jpg" alt="Disque 2">
+                        <div class="record-info">
+                            <p class="record-artist">Artiste 2</p>
+                            <h3 class="record-title">Titre du disque 2</h3>
+                            <p class="record-price">16,90 €</p>
+                        </div>
+                    </a>
+                </article>
+
+                <article class="record-card">
+                    <a href="/fr/produit/disque-3/">
+                        <img src="/static/public/images/products/disque-3.jpg" alt="Disque 3">
+                        <div class="record-info">
+                            <p class="record-artist">Artiste 3</p>
+                            <h3 class="record-title">Titre du disque 3</h3>
+                            <p class="record-price">12,90 €</p>
+                        </div>
+                    </a>
+                </article>
+
+                <article class="record-card">
+                    <a href="/fr/produit/disque-4/">
+                        <img src="/static/public/images/products/disque-4.jpg" alt="Disque 4">
+                        <div class="record-info">
+                            <p class="record-artist">Artiste 4</p>
+                            <h3 class="record-title">Titre du disque 4</h3>
+                            <p class="record-price">18,90 €</p>
+                        </div>
+                    </a>
+                </article>
+
+                <article class="record-card">
+                    <a href="/fr/produit/disque-5/">
+                        <img src="/static/public/images/products/disque-5.jpg" alt="Disque 5">
+                        <div class="record-info">
+                            <p class="record-artist">Artiste 5</p>
+                            <h3 class="record-title">Titre du disque 5</h3>
+                            <p class="record-price">15,90 €</p>
+                        </div>
+                    </a>
+                </article>
+            </div>
+        </div>
+        <button class="carousel-control prev" id="news-prev" aria-label="Disques précédents">‹</button>
+        <button class="carousel-control next" id="news-next" aria-label="Disques suivants">›</button>
+
+    </section>
+
+
+    <script src="/static/js/menu.js"></script>
+
+    <script src="/static/js/carrousel-nouveaute.js"></script>
+    <script src="/static/js/skin.js"></script>
+
+</body>
+
+</html>

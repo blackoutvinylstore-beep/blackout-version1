@@ -1,0 +1,462 @@
+/* TEMPLATE STYLES */
+
+main {
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+
+header
+
+/* ou main ou le conteneur parent de votre navigation */
+  {
+  text-align: center;
+}
+
+body {
+  background: #b3aaaa;
+  font-size: 14px;
+}
+
+nav {
+  background-color: #b3aaaa;
+  font-size: x-large;
+  cursor: pointer;
+  padding: 2px;
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+  z-index: 1;
+  /* Center the navigation on all screen sizes */
+}
+
+
+
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 10px;
+
+}
+
+nav li {
+  margin-right: 15px;
+  text-decoration: bFF5500;
+  cursor: pointer;
+}
+
+nav a {
+  text-decoration: dotted;
+  color: blue;
+  text-transform: none;
+  padding: 10px 15px;
+
+}
+
+.menu-item {
+  position: relative;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: transparent;
+  z-index: 3;
+
+}
+
+.menu-item:hover .submenu {
+  display: block;
+}
+
+
+
+/* Styling de la barre de recherche */
+
+.search-box {
+  position: absolute;
+  top: 50%;
+  left: 91%;
+  transform: translate(-50%, -50%);
+  background: #000000;
+  color: #02ff17;
+  height: 20px;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.search-box:hover>.search-txt {
+  width: 240px;
+  padding: 0 6px;
+}
+
+.search-box:hover>.search-btn {
+  background: chartreuse;
+  color: red;
+}
+
+.search-btn {
+  color: #ff0000;
+  float: right;
+  width: 40px;
+  height: 40px;
+  border: bottom 1px solid #ff0000;
+  border-radius: 50%;
+  background: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.search-btn>i {
+  font-size: 15px;
+}
+
+.search-txt {
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  margin: -7px;
+  padding: 10px;
+  color: rgb(94, 255, 0);
+  font-size: 16px;
+  transition: 0.4s;
+  line-height: 14px;
+  width: 20px;
+  font-weight: bold;
+}
+
+  .widget-wrapper {
+    float: left;
+    width: 30%;
+    /* Vous pouvez ajuster la largeur en fonction de vos besoins */
+    margin-right: 20px;
+    /* Pour espacer la boîte de contact du diaporama */
+    padding-bottom: 2rem;
+    border-bottom: 2px solid chartreuse;
+    margin-bottom: 2rem;
+    z-index: 5;
+    /* Valeur cohérente si nécessaire */
+  }
+
+  .extra-margins {
+    border-bottom-style: #02ff17;
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
+    z-index: 6;
+    /* Valeur cohérente si nécessaire */
+  }
+
+  .mask {
+    border-block-color: 3px solid #02ff17;
+  }
+
+  .h1 {
+    display: inline;
+    justify-content: center;
+  }
+
+  body {
+    background: #b3aaaa;
+    font-size: 14px;
+  }
+
+  
+
+
+  /* pour le carrousel haut centre milieu*/
+
+  .father {
+    float: right;
+    width: 65%; /* Vous pouvez ajuster la largeur en fonction de vos besoins */
+  }
+
+  .father {
+    max-width: 100%;
+    width: 1500px;
+    margin: 30px;
+    padding: 10px;
+    box-shadow: inset 0px -1px 20px rgba(7, 27, 207, 0.3);
+    border: 2px solid #250fee;
+    border-radius: 5px;
+    /* Coins arrondis pour l'image */
+  }
+
+  .btn-envoyer {
+    background: chartreuse;
+    color: black;
+    padding: 5px 10px;
+    font-size: 16px;
+    position: relative;
+    /* Position absolue pour le bouton */
+    top: 0;
+    /* Position en haut de son conteneur parent */
+    right: 0;
+    /* Position à droite de son conteneur parent */
+  }
+
+  .wrap {
+    overflow: hidden;
+    transition: all .3s;
+    cursor: grab;
+    cursor: -webkit-grab;
+
+    /* Coins arrondis pour l'image */
+  }
+
+  * {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  .move {
+    height: 100px;
+    white-space: nowrap;
+    transition: all .3s;
+    box-shadow: inset 0px -1px 20px rgba(7, 27, 207, 0.3);
+
+    /* Coins arrondis pour l'image */
+  }
+
+  .active {
+
+    cursor: grabbing;
+    cursor: -webkit-grabbing;
+    box-shadow: inset 0px -1px 20px rgba(7, 27, 207, 0.3);
+    border: 2px solid #250fee;
+    border-radius: 5px;
+    /* Coins arrondis pour l'image */
+  }
+
+  .content {
+    width: 190px;
+    height: 100%;
+    background: transparent;
+    margin-right: 10px;
+    display: inline-block;
+    text-align: center;
+    line-height: 150px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Helvetica;
+    box-shadow: inset 0px -1px 20px rgba(7, 27, 207, 0.3);
+    border: 2px solid #250fee;
+    border-radius: 5px;
+    /* Coins arrondis pour l'image */
+  }
+
+  .content:last-child {
+    margin-right: 0;
+    box-shadow: inset 0px -1px 20px rgba(7, 27, 207, 0.3);
+    border: 2px solid #250fee;
+    border-radius: 5px;
+    /* Coins arrondis pour l'image */
+  }
+
+  /* Style des liens */
+  a {
+    text-decoration: none;
+    /* Supprime les soulignements par défaut des liens */
+    color: #eb8806;
+    /* Couleur du lien */
+    transition: color 0.3s;
+    /* Animation de transition pour la couleur au survol */
+  }
+
+  a:hover {
+    color: #FF5500;
+    /* Couleur du lien au survol */
+  }
+
+  /* Style des images */
+  img {
+    width: 100%;
+    /* Ajuste la largeur de l'image au conteneur parent */
+    height: auto;
+    /* Ajuste automatiquement la hauteur en maintenant le ratio d'aspect */
+    border: 2px solid #250fee;
+    /* Bordure autour de l'image */
+    border-radius: 5px;
+    /* Coins arrondis pour l'image */
+    box-shadow: 0 0 5px rgba(3, 79, 241, 0.904);
+    /* Ombre légère autour de l'image */
+    transition: transform 0.3s;
+    /* Animation de transition pour le zoom au survol */
+  }
+
+  img:hover {
+    transform: scale(1.05);
+    /* Zoom de l'image au survol */
+    box-shadow: inset 0px -1px 20px rgba(7, 27, 207, 0.3);
+    border: 2px solid #250fee;
+    border-radius: 5px;
+    /* Coins arrondis pour l'image */
+  }
+
+  /* Style pour le pied de page (footer) */
+  .footer {
+    background-color: #333;
+    color: blue;
+    padding: 30px 0;
+    box-shadow: inset 0px -1px 20px rgba(7, 27, 207, 0.3);
+    border: 2px solid #250fee;
+    border-radius: 5px;
+    /* Coins arrondis pour l'image */
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .footer-contenu {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .section-footer {
+    flex: 1;
+    padding: 0 20px;
+  }
+
+  .footer h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #02ff17;
+    font-size: x-large;
+  }
+
+  .icones-sociaux {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .icones-sociaux li {
+    margin-right: 20px;
+  }
+
+  .icones-sociaux a {
+    color: blue;
+    border-color: #250fee;
+    text-decoration: none;
+    font-size: 24px;
+  }
+
+  .liens-footer {
+    list-style: none;
+    padding: 0;
+  }
+
+  .liens-footer a {
+    color: chartreuse;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+
+  .methodes-paiement {
+    list-style: none;
+    padding: 10px;
+    display: flex;
+  }
+
+  .methodes-paiement li {
+    font-size: 30px;
+    margin-right: 20px;
+  }
+
+  /* Styles pour l'appel à l'action */
+  .appel-action {
+    flex: 1;
+    text-align: center;
+  }
+
+  .multicolortext {
+    background-image: linear-gradient(to left, violet, indigo, green, blue, yellow, orange, red);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  h4 {
+    list-style: disc;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 24px;
+  }
+
+  h5 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    margin-bottom: 20px;
+    box-shadow: 1px solid #ff05bc;
+  }
+
+  .boutons-appel-action {
+
+    list-style: repeating-linear-gradient(#8400ff);
+    padding: 0;
+  }
+
+  .boutons-appel-action li {
+
+    margin-bottom: 15px;
+  }
+
+  .boutons-appel-action .btn {
+    background: chartreuse;
+    padding: 10px 20px;
+
+    color: black;
+    border-bottom: 3px solid black;
+    cursor: pointer;
+  }
+
+  .a,
+  .btn.btn-info {
+    background: chartreuse;
+    color: black;
+  }
+
+  .btn.btn-default {
+    background: chartreuse;
+    color: black;
+
+  }
+
+  .btn {
+    font-size: .8rem;
+    padding: .85rem 2.13rem;
+    border-radius: 2px;
+    border: 0;
+    color: black;
+    margin: 6px;
+    white-space: normal;
+  }
+
+  /* Section droits d'auteur */
+  .droits-auteur {
+    text-align: center;
+    padding: 20px 0;
+    background-color: grey;
+  }
+
+  .droits-auteur p {
+    font-size: 25px;
+  }

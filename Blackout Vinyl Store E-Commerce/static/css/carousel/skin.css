@@ -1,0 +1,170 @@
+/*********************************
+CARROUSEL 3D - NOUVEAUX ARRIVAGES
+*********************************/
+/*********************************
+TITRE SECTION 3D
+*********************************/
+.new-arrivals-hero {
+    width: min(1400px, calc(100% - 32px));
+    margin: 36px auto 18px;
+    text-align: center;
+}
+
+.new-arrivals-hero h2 {
+    margin: 0 0 8px;
+    font-size: clamp(1.8rem, 3vw, 2.8rem);
+    color: #fff;
+}
+
+.new-arrivals-hero p {
+    margin: 0;
+    color: #b8b8c2;
+    font-size: 1rem;
+}
+
+/*********************************
+SCÈNE 3D PLEINE LARGEUR
+*********************************/
+.container-skin {
+    position: relative;
+    width: 100%;
+    max-width: 1400px;
+    height: 440px;
+    margin: 0 auto 40px;
+    perspective: 1600px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*********************************
+CARROUSEL 3D
+*********************************/
+#carousel-skin {
+    position: relative;
+    width: 320px;
+    height: 360px;
+    transform-style: preserve-3d;
+}
+
+.ready #carousel-skin {
+    transition: transform 1s;
+}
+
+#carousel-skin.panels-backface-invisible figure {
+    backface-visibility: hidden;
+}
+
+/*********************************
+PANNEAUX
+*********************************/
+#carousel-skin figure {
+    position: absolute;
+    left: 30px;
+    top: 20px;
+    width: 260px;
+    height: 320px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow: hidden;
+    border-radius: 18px;
+    background: #111;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    box-shadow: 0 14px 30px rgba(0, 0, 0, 0.35);
+    color: #fff;
+    text-align: center;
+}
+
+.ready #carousel-skin figure {
+    transition: opacity 1s, transform 1s;
+}
+
+/*********************************
+CONTENU CARTE
+*********************************/
+#carousel-skin figure a {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    color: inherit;
+    text-decoration: none;
+    background: transparent;
+}
+
+#carousel-skin figure a:hover {
+    background: transparent;
+    color: inherit;
+}
+
+#carousel-skin figure img {
+    display: block;
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    background: #0f0f12;
+}
+
+#carousel-skin figcaption {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 70px;
+    padding: 10px 12px;
+    font-size: 0.95rem;
+    line-height: 1.35;
+    text-align: center;
+    background: #111;
+    color: #fff;
+}
+
+/*********************************
+OPTIONS DE DEBUG
+CACHÉES EN PUBLIC
+*********************************/
+#options {
+    display: none !important;
+}
+
+/*********************************
+RESPONSIVE
+*********************************/
+@media (max-width: 768px) {
+    .container-skin {
+        height: 360px;
+        margin: 0 auto 28px;
+    }
+
+    #carousel-skin {
+        width: 260px;
+        height: 300px;
+    }
+
+    #carousel-skin figure {
+        left: 20px;
+        top: 14px;
+        width: 220px;
+        height: 270px;
+        border-radius: 14px;
+    }
+
+    #carousel-skin figure img {
+        height: 200px;
+    }
+
+    #carousel-skin figcaption {
+        min-height: 70px;
+        font-size: 0.85rem;
+        padding: 8px 10px;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .ready #carousel-skin,
+    .ready #carousel-skin figure {
+        transition: none;
+    }
+}

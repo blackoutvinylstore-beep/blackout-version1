@@ -1,0 +1,4 @@
+git config user.name "Blackout Vinylstore"
+git config user.email "blackoutvinylstore@gmail.com"
+devise autantification
+7D5C-0EC1

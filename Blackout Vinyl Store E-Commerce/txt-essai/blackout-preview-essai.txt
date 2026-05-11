@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>
+        Blackout Vinyl Store | Disquaire vinyle underground, techno, tribe, jungle
+        & drum and bass
+    </title>
+    <meta name="description"
+        content="Blackout Vinyl Store, disquaire spécialisé en vinyles underground : techno, tribe, hardtek, jungle, drum & bass, dubstep, breakbeat et electro. Nouveautés, restocks et collectors." />
+    <meta name="robots" content="index,follow" />
+
+    <!-- Choisis UNE seule version de domaine -->
+    <link rel="canonical" href="https://blackoutvinylstore.com/fr/" />
+
+    <!-- À garder seulement si tes 2 versions existent vraiment -->
+    <link rel="alternate" hreflang="fr" href="https://blackoutvinylstore.com/fr/" />
+    <link rel="alternate" hreflang="en" href="https://blackoutvinylstore.com/en/" />
+    <link rel="alternate" hreflang="x-default" href="https://blackoutvinylstore.com/fr/" />
+
+    <meta name="theme-color" content="#111111" />
+
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <link rel="stylesheet" href="/static/css/grid-12-12.css" />
+
+</head>
+
+<body>
+
+    <header class="site-header">
+        <div class="container-topbar">
+            <!-- LOGO -->
+<div class="container-topbar">
+    <!-- LOGO -->
+    <div class="logo">
+        <a href="/fr/" aria-label="Retour à l'accueil Blackout Vinyl Store">
+            <img src="/static/public/images/logo/blackoutvinylestore-logo-200px.png" alt="Blackout Vinyl Store">
+        </a>
+    </div>
+
+    <!-- TITRE -->
+    <div class="site-branding">
+        <p class="site-kicker">Disquaire & distributeur underground</p>
+        <p class="site-tagline">Vinyles, mp3, nouveautés, restocks & collectors</p>
+    </div>
+
+    <!-- LANGUE -->
+    <div class="language-selector">
+        <label for="language-select" class="sr-only">Choisir une langue</label>
+        <select id="language-select" name="language">
+            <option value="fr" selected>🇫🇷 Français</option>
+            <option value="en">🇬🇧 English</option>
+            <option value="de">🇩🇪 Deutsch</option>
+        </select>
+    </div>
+</div>
+
+        <!-- ACTION -->
+
+        <div class="header-actions-connexion">
+            <a class="btn btn-dark" href="/fr/connexion/">
+                <svg aria-hidden="true" width="16" height="16" viewBox="0 0 512 512" fill="currentColor">
+                    <path
+                        d="M502.6 233.4l-96-96c-15-15-41-4.5-41 17v62.6H192c-17.7 0-32 14.3-32 32v14c0 17.7 14.3 32 32 32h173.6v62.6c0 21.4 25.9 32.1 41 17l96-96c9.4-9.4 9.4-24.6 0-33.9zM192 80h96c17.7 0 32-14.3 32-32V32c0-17.7-14.3-32-32-32H160C71.6 0 0 71.6 0 160v192c0 88.4 71.6 160 160 160h128c17.7 0 32-14.3 32-32v-16c0-17.7-14.3-32-32-32h-96c-53 0-96-43-96-96V176c0-53 43-96 96-96z" />
+                </svg>
+                Connexion
+            </a>
+        </div>
+
+        <div class="header-actions-inscription">
+            <a class="btn btn-dark" href="/fr/inscription/">
+                <svg aria-hidden="true" width="16" height="16" viewBox="0 0 640 512" fill="currentColor">
+                    <path
+                        d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm336 32h-64v-64c0-17.7-14.3-32-32-32s-32 14.3-32 32v64h-64c-17.7 0-32 14.3-32 32s14.3 32 32 32h64v64c0 17.7 14.3 32 32 32s32-14.3 32-32v-64h64c17.7 0 32-14.3 32-32s-14.3-32-32-32zM144 320C64.5 320 0 384.5 0 464c0 26.5 21.5 48 48 48h277.3c-3.4-9.9-5.3-20.5-5.3-32c0-52.9 43.1-96 96-96c11.5 0 22.1 1.9 32 5.3V416c0-53-43-96-96-96H144z" />
+                </svg>
+                Créer un compte
+            </a>
+        </div>
+        <div class="header-action-nbrarticle">
+            <div id="cart-summary-wrapper">
+                <a href="/fr/cart" id="cart-summary" class="items-nbr-0">
+                    <span id="cart-summary-item-count">
+                        <span class="cart-nbr">0</span>
+                        <span class="cart-article">articles</span>
+                    </span>
+                </a>
+
+                <span id="cart-summary-separator">|</span>
+                <div class="header-action-panier">
+                    <a class="btn btn-cart" href="/fr/panier/">
+                        <svg aria-hidden="true" width="16" height="16" viewBox="0 0 576 512" fill="currentColor">
+                            <path
+                                d="M528.1 301.3L575.8 107c3.2-13-6.7-25-20.1-25H120.6l-9.4-44.2C108.3 24.2 96.4 16 83.8 16H24C10.7 16 0 26.7 0 40s10.7 24 24 24h40.5l61.7 289.8c-10.3 9.3-16.9 22.7-16.9 37.8c0 28.2 22.8 51 51 51h320c13.3 0 24-10.7 24-24s-10.7-24-24-24H160.3l-5.4-25.4h312.4c28.3 0 52.9-19.1 60.8-46.7z" />
+                        </svg>
+                        Mon panier
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- BURGER -->
+
+        <button class="burger" id="burger" type="button" aria-label="Ouvrir le menu" aria-expanded="false"
+            aria-controls="main-nav">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+
+        <!-- NAVIGATION MENU -->
+
+        <div class="nav-list">
+            <li class="nav-item has-dropdown">
+                <a href="/fr/Accueil/">Accueil</a>
+                <button class="submenu-toggle" type="button" aria-label="Ouvrir le sous-menu Accueil"></button>
+                <ul class="submenu submenu-right">
+                    <li><a href="/fr/a-propos/">À propos</a></li>
+                    <li><a href="/fr/politique/">Politique</a></li>
+                    <li><a href="/fr/contact/">Contact</a></li>
+                </ul>
+            </li>
+        </div>
+
+
+        <div class="nav-list">
+            <li class="nav-item has-dropdown">
+                <a href="/fr/catalog/">Galettorie</a>
+                <button class="submenu-toggle" type="button" aria-label="Ouvrir le sous-menu Galettorie"></button>
+                <ul class="submenu submenu-right">
+                    <li><a href="/fr/catalog/hardcore/">Hardcore</a></li>
+                    <li><a href="/fr/catalog/gabber/">Gabber</a></li>
+                    <li><a href="/fr/catalog/hardcore/">Hardcore</a></li>
+                    <li><a href="/fr/catalog/happy-hardcore/">Happy Hardcore</a></li>
+                    <li><a href="/fr/catalog/jumpstyle/">Jumpstyle</a></li>
+                    <li><a href="/fr/catalog/hardstyle/">Hardstyle</a></li>
+                    <li><a href="/fr/catalog/hard-house/">Hard House</a></li>
+                    <li><a href="/fr/catalog/hardtechno/">Hardtechno</a></li>
+                    <li><a href="/fr/catalog/terror/">Terror</a></li>
+                    <li><a href="/fr/catalog/speedcore/">Speedcore</a></li>
+                    <li><a href="/fr/catalog/breakcore/">Breakcore</a></li>
+                    <li><a href="/fr/catalog/doom/">Doom</a></li>
+                    <li><a href="/fr/catalog/doomcore/">Doomcore</a></li>
+                </ul>
+            </li>
+
+
+            <li class="submenu-item has-dropdown">
+                <a href="/fr/catalog/techno/">Techno</a>
+                <button class="submenu-toggle" type="button" aria-label="Ouvrir le sous-menu Techno"></button>
+                <ul class="submenu submenu-right">
+                    <li><a href="/fr/catalog/minimal/">Minimal</a></li>
+                    <li><a href="/fr/catalog/hard-techno/">Hard Techno</a></li>
+                    <li><a href="/fr/catalog/acid/">Acid</a></li>
+                    <li><a href="/fr/catalog/techno/">Techno</a></li>
+                    <li><a href="/fr/catalog/hardtechno/">Hardtechno</a></li>
+                    <li><a href="/fr/catalog/acid-techno/">Acid Techno</a></li>
+                    <li><a href="/fr/catalog/dub-techno/">Dub Techno</a></li>
+                    <li><a href="/fr/catalog/deep-techno/">Deep Techno</a></li>
+                    <li><a href="/fr/catalog/schranz/">Schranz</a></li>
+                </ul>
+            </li>
+
+
+            <li class="submenu-item has-dropdown">
+                <a href="/fr/catalog/trance/">Trance</a>
+                <button class="submenu-toggle" type="button" aria-label="Ouvrir le sous-menu Trance"></button>
+                <ul class="submenu submenu-right">
+                    <li><a href="/fr/catalog/psytrance/">Psytrance</a></li>
+                    <li><a href="/fr/catalog/progressive-trance/">Progressive</a></li>
+                    <li><a href="/fr/catalog/trance/">Trance</a></li>
+                    <li><a href="/fr/catalog/uplifting-trance/">Uplifting Trance</a></li>
+                </ul>
+            </li>
+
+            <li class="submenu-item has-dropdown">
+                <a href="/fr/catalog/house/">House</a>
+                <button class="submenu-toggle" type="button" aria-label="Ouvrir le sous-menu House"></button>
+                <ul class="submenu submenu-right">
+                    <li><a href="/fr/catalog/deep-house/">Deep House</a></li>
+                    <li><a href="/fr/catalog/tech-house/">Tech House</a></li>
+                    <li><a href="/fr/catalog/acid-house/">Acid House</a></li>
+                    <li><a href="/fr/catalog/progressive-house/">Progressive House</a></li>
+                    <li><a href="/fr/catalog/euro-house/">Euro House</a></li>
+                </ul>
+            </li>
+
+            <li class="submenu-item has-dropdown">
+                <a href="/fr/catalog/drum-jungle-dub/">Drum / Jungle / Dub</a>
+                <button class="submenu-toggle" type="button" aria-label="Ouvrir le sous-menu Drum Jungle Dub"></button>
+                <ul class="submenu submenu-right">
+                    <li><a href="/fr/catalog/drum-and-bass/">Drum & Bass</a></li>
+                    <li><a href="/fr/catalog/bass-music/">Bass Music</a></li>
+                    <li><a href="/fr/catalog/grime/">Grime</a></li>
+                    <li><a href="/fr/catalog/jungle/">Jungle</a></li>
+                    <li><a href="/fr/catalog/breakbeat/">Breakbeat</a></li>
+                    <li><a href="/fr/catalog/breaks/">Breaks</a></li>
+                    <li><a href="/fr/catalog/dub/">Dub</a></li>
+                    <li><a href="/fr/catalog/trap/">Trap</a></li>
+                </ul>
+            </li>
+        </div>
+        <div class="nav-list">
+            <li class="nav-item has-dropdown">
+                <a href="/fr/vetements/">Vêtements</a>
+                <button class="submenu-toggle" type="button" aria-label="Ouvrir le sous-menu Vêtements"></button>
+            </li>
+            <li class="submenu-item has-dropdown">
+                <a href="/fr/vetements/hommes/">Hommes</a>
+                <button class="submenu-toggle" type="button" aria-label="Ouvrir le sous-menu Hommes"></button>
+                <ul class="submenu submenu-right">
+                    <li><a href="/fr/vetements/hommes/t-shirts/">T-shirts</a></li>
+                    <li><a href="/fr/vetements/hommes/pantalons/">Pantalons</a></li>
+                    <li><a href="/fr/vetements/hommes/vestes/">Vestes</a></li>
+                    <li><a href="/fr/vetements/hommes/chaussures/">Chaussures</a></li>
+                    <li><a href="/fr/vetements/hommes/chapeaux/">Chapeaux</a></li>
+                </ul>
+            </li>
+            <li class="submenu-item has-dropdown">
+                <a href="/fr/vetements/femmes/">Femmes</a>
+                <button class="submenu-toggle" type="button" aria-label="Ouvrir le sous-menu Femmes"></button>
+                <ul class="submenu submenu-right">
+                    <li><a href="/fr/vetements/femmes/t-shirts/">T-shirts</a></li>
+                    <li><a href="/fr/vetements/femmes/pantalons/">Pantalons</a></li>
+                    <li><a href="/fr/vetements/femmes/vestes/">Vestes</a></li>
+                    <li><a href="/fr/vetements/femmes/chaussures/">Chaussures</a></li>
+                    <li><a href="/fr/vetements/femmes/chapeaux/">Chapeaux</a></li>
+                </ul>
+            </li>
+            <li class="submenu-item has-dropdown">
+                <a href="/fr/goodies/">Goodies</a>
+                <button class="submenu-toggle" type="button" aria-label="Ouvrir le sous-menu Goodies"></button>
+                <ul class="submenu submenu-right">
+                    <li><a href="/fr/goodies/">Goodies</a></li>
+                    <li><a href="/fr/autre/">Autre</a></li>
+                </ul>
+            </li>
+        </div>
+        <div class="nav-list">
+            <li class="nav-item has-dropdown">
+                <a href="/fr/mon-compte/">Ma page</a>
+                <button class="submenu-toggle" type="button" aria-label="Ouvrir le sous-menu Ma page"></button>
+                <ul class="submenu">
+                    <li><a href="/fr/mon-compte/mes-achats/">Mes achats</a></li>
+                    <li><a href="/fr/mon-compte/mes-desirs/">Mes désirs</a></li>
+                    <li><a href="/fr/mon-compte/mes-ecoutes/">Mes écoutes</a></li>
+                </ul>
+            </li>
+        </div>
+        <div class="nav-list">
+            <li class="submenu-item has-dropdown">
+                <button class="submenu-toggle" type="button" aria-label="Ouvrir le sous-menu Ma page"></button>
+                <ul class="submenu submenu-right">
+                    <div class="header-action-recherche">
+                        <form class="search-form" action="/fr/recherche/" method="get" role="search">
+                            <label for="site-search" class="sr-only"></label>
+                            <input id="site-search" type="search" name="q"
+                                placeholder="Rechercher un artiste, un style, un label…" />
+                            <button type="submit" class="btn btn-outline">🔍</button>
+                        </form>
+                    </div>
+                </ul>
+            </li>
+        </div>
+        </div>
+        </nav>
+    </header>
+
+
+    <div class="div13">13</div>
+    <div class="div14">14</div>
+    <div class="div15">15</div>
+    <div class="div16">16</div>
+    <div class="div17">17</div>
+    <div class="div18">18</div>
+    <div class="div19">19</div>
+    <div class="div20">20</div>
+    <div class="div21">21</div>
+    <div class="div22">22</div>
+    <div class="div23">23</div>
+    <div class="div24">24</div>
+    <div class="div25">25</div>
+    <div class="div26">26</div>
+    <div class="div27">27</div>
+    <div class="div28">28</div>
+    <div class="div29">29</div>
+    <div class="div30">30</div>
+    <div class="div31">31</div>
+    <div class="div32">32</div>
+</body>
+
+</html>

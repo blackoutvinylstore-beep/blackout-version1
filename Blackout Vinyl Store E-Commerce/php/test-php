@@ -1,0 +1,94 @@
+<?php
+// Exemple futur
+// $stmt = $pdo->query("SELECT * FROM produits");
+// $products = $stmt->fetchAll(PDO::FETCH_ASSOC);
+?><?php
+$products = [
+    [
+        'image' => 'https://via.placeholder.com/120x120/111/ffffff?text=Cover',
+        'badge' => 'NEW',
+        'title' => 'Balistik 14',
+        'subtitle' => 'Une voix dans ma tête',
+        'artists' => 'Akouphen, Damage Circuits, Zellkern, FreePouï',
+        'label' => 'Label Balistik',
+        'description' => 'Superbe 4 titres avec une ambiance tribe / freetekno, speech bien placé et énergie mentale très marquée.',
+        'format' => '12" EP',
+        'country' => 'FR',
+        'year' => '2026',
+        'genre' => 'Tribe, Freetekno',
+        'tracks' => [
+            'A1 - Akouphen - Une voix dans ma tête',
+            'A2 - Damage Circuits - Déséquilibre',
+            'B1 - Zellkern - Automatrick',
+            'B2 - FreePouï - Oldschool vibe',
+        ],
+        'price' => 15.07
+    ],
+    [
+        'image' => 'https://via.placeholder.com/120x120/7a2d2d/ffffff?text=Vinyl',
+        'badge' => 'NEW',
+        'title' => 'Hashtek23 21',
+        'subtitle' => 'Dehumanized Sentinels',
+        'artists' => 'Prismatik, Kokko, Dazed, Âpre, Flaemish Lion',
+        'label' => 'Label Hashtek23',
+        'description' => 'Quand l’acid devient une chanson... Trance effect with tribe music. Story telling structured tunes.',
+        'format' => '12" EP',
+        'country' => 'NL',
+    ]
+]
+?>
+
+<div class="product-list">
+    <?php foreach ($products as $product): ?>
+    <div class="product-box">
+
+        <div class="product-left">
+            <img src="<?= htmlspecialchars($product['image']) ?>" alt="Pochette album">
+            <?php if (!empty($product['badge'])): ?>
+            <div class="badge"><?= htmlspecialchars($product['badge']) ?></div>
+            <?php endif; ?>
+        </div>
+
+        <div class="product-center">
+            <h3>
+                <?= htmlspecialchars($product['title']) ?>
+                <span>"<?= htmlspecialchars($product['subtitle']) ?>"</span>
+            </h3>
+
+            <div class="meta">de <?= htmlspecialchars($product['artists']) ?></div>
+            <div class="tags"><?= htmlspecialchars($product['label']) ?></div>
+
+            <div class="description">
+                <?= htmlspecialchars($product['description']) ?>
+            </div>
+
+            <div class="bottom-infos">
+                <span><?= htmlspecialchars($product['format']) ?></span>
+                <span><?= htmlspecialchars($product['country']) ?></span>
+                <span><?= htmlspecialchars($product['year']) ?></span>
+                <span><?= htmlspecialchars($product['genre']) ?></span>
+            </div>
+        </div>
+
+        <div class="product-right">
+            <div class="tracklist">
+                <ul>
+                    <?php foreach ($product['tracks'] as $track): ?>
+                    <li><?= htmlspecialchars($track) ?></li>
+                    <?php endforeach; ?>
+                </ul>
+            </div>
+
+            <div class="purchase">
+                <div class="price"><?= number_format($product['price'], 2, '.', ' ') ?> €</div>
+                <button class="btn-cart">Ajouter au panier</button>
+            </div>
+        </div>
+
+    </div>
+    <?php endforeach; ?>
+</div>
+
+</body>
+
+</html>
